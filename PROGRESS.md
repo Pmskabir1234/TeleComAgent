@@ -12,19 +12,19 @@ This file tracks the implementation status of the AI Telecom Assistant. Each tas
 
 ## 🔵 Phase 1: Conversation Interface (Slice 2)
 - **Backend: Data Layer**
-    - [ ] Create SQLAlchemy `Conversation` and `Message` models
-    - [ ] Implement Database Session/Engine management
-    - [ ] Create initial database tables (SQLite)
+    - [x] Create SQLAlchemy `Conversation` and `Message` models
+    - [x] Implement Database Session/Engine management
+    - [x] Create initial database tables (SQLite)
 - **Backend: Chat API**
-    - [ ] Define Pydantic schemas for Chat requests/responses
-    - [ ] Implement `POST /api/v1/chat` (Echo Logic)
-    - [ ] Integrate DB persistence for user/assistant messages
+    - [x] Define Pydantic schemas for Chat requests/responses
+    - [x] Implement `POST /api/v1/chat` (Echo Logic)
+    - [x] Integrate DB persistence for user/assistant messages
 - **Frontend: Chat UI**
-    - [ ] Build `ChatWindow` and `MessageBubble` components
-    - [ ] Implement `ChatInput` with state management
-    - [ ] Connect UI to `/chat` API via `api.ts`
+    - [x] Build `ChatWindow` and `MessageBubble` components
+    - [x] Implement `ChatInput` with state management
+    - [x] Connect UI to `/chat` API via `api.ts`
 - **Verification**
-    - [ ] End-to-end "Echo" test (Message $\rightarrow$ DB $\rightarrow$ API $\rightarrow$ UI)
+    - [x] End-to-end "Echo" test (Message $\rightarrow$ DB $\rightarrow$ API $\rightarrow$ UI)
 
 ## 🟡 Phase 2: AI Core & Orchestration (Slice 3)
 - **AI Framework Setup**
